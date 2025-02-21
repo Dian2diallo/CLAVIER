@@ -1,0 +1,162 @@
+ body{
+        font-family: Arial, sans-serif;
+        justify-content: center;
+        align-items: center;
+       background-color: white;
+       margin-left: auto;
+    } 
+    .conteneur{
+        margin-left: 100px;
+        margin-top: 90px;
+        background-color: rgb(248, 245, 245);
+    }
+    
+ .div1{
+    padding: 2PX;
+  
+}
+/* button:hover{
+    transform: scale(1.1);
+    background-color: #b5b6b8;
+} */
+
+button{
+    width: 60px;
+    height: 50px;
+   color: white;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px; 
+}
+.larg {
+    width: 61%;
+    position: relative;
+    top: 15px; 
+     
+} 
+.supprimer{
+    width: 9%;
+    background-color: red;
+    
+}
+.Tab{
+    width: 9%;
+    background-color: red;
+}
+.Caspslock{
+    width: 12%;
+    background-color: red;
+}
+.Return{
+    width:12.2%;
+    background-color: red;
+}
+.Shift{
+    width: 14%;
+    background-color: red;
+}
+.ShiftS{
+    width: 10%;
+    background-color: red;
+}
+.div2{
+   padding: 2px;
+}
+.BUTTS{
+   width: 90px;
+   height: 50px;
+   
+    
+}
+.larg2{
+     width: 20%;
+     background-color: red;
+     color: red;
+}
+
+.BUTT{
+    background: red;
+    width: 90PX;
+    height: 50px;
+} 
+/*  */
+.div3{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f5f5f5;
+margin-right: 23%;
+
+
+}
+
+.larg3{
+display: flex;
+align-items: center;
+gap: 4px;
+padding: 10px;
+width: 900%;
+height:900% ;
+position: relative;
+bottom: 48%;
+}
+.larg4{
+    width: 200%;
+    position: relative;
+    top:15px;
+    background-color: #8f0322;
+}
+.co{
+    background-color:#8f0322;
+}
+.petite{
+    
+    width: 60PX;
+    height: 20px;
+}
+.Up, .Down {
+    position: static; /* Enlever le positionnement relatif */
+    margin: 0 auto;  /* Centrer horizontalement */
+
+}
+.Down{
+    position: relative;
+    left: 65px;
+    bottom: 10PX;
+}
+.Up{
+    position: relative;
+    bottom: 13PX;
+}
+
+ .PETITES {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 5px;
+position: relative;
+top: 25px;
+
+}
+
+/*
+.petite .up {
+grid-column: 2;
+width: 10px;
+height: 10PX;
+background-color: blue;
+position:relative ;
+bottom: 10px;
+}
+
+.petite .Down{
+grid-column: 2;
+width: 10px;
+height: 10PX;
+position:relative ;
+bottom: 25px;
+background-color: blue;
+}  */
